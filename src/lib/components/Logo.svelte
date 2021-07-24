@@ -10,14 +10,19 @@
 
   let show = false;
   let fillWrenchBody = false;
+  let wrench: SVGElement;
   let wrenchHole: SVGCircleElement;
   $: wrenchHole && wrenchHole.setAttribute("fill", backgroundColor);
+
+  function tiltWrench() {
+    wrench;
+  }
 
   onMount(() => {
     show = true;
     setTimeout(() => {
       fillWrenchBody = true;
-    }, 1500);
+    }, 2000);
   });
 </script>
 
@@ -35,6 +40,7 @@
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 727.99994 1122.6889"
         class="overflow-visible"
+        bind:this="{wrench}"
       >
         <g
           stroke="#3fada8"
@@ -64,6 +70,16 @@
 {/if}
 
 <style lang="postcss">
+  svg {
+    transition: transform 0.5s cubic-bezier(0.64, 0.11, 0.82, 1.78);
+    transform-origin: 73% 17.5%;
+  }
+
+  h1:hover svg,
+  h1:focus svg,
+  h1:active svg {
+    transform: rotate(-135deg);
+  }
   g {
     paint-order: stroke;
   }

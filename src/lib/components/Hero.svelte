@@ -1,11 +1,3 @@
-<script lang="ts" context="module">
-  export interface HeaderInfo {
-    element: HTMLElement;
-    height: number;
-    width: number;
-  }
-</script>
-
 <script lang="ts">
   import { fly } from "svelte/transition";
   import Container from "$lib/components/Container.svelte";
@@ -13,37 +5,14 @@
   import { onMount } from "svelte";
   import Icon from "svelte-icons-pack/Icon.svelte";
   import LocationMarker from "svelte-icons-pack/hi/HiOutlineLocationMarker";
-  import Graphics from "./Graphics.svelte";
 
   let showHero = false;
   onMount(() => {
     showHero = true;
   });
-
-  const header: HeaderInfo = {
-    element: undefined,
-    height: 0,
-    width: 0,
-  };
 </script>
 
-<section
-  bind:this="{header.element}"
-  bind:clientWidth="{header.width}"
-  bind:clientHeight="{header.height}"
-  class="bg-black-900 relative"
->
-  {#await new Promise((res) => setTimeout(res, 500))}
-    <div></div>
-  {:then}
-    <Graphics
-      header="{{
-        element: header.element,
-        height: header.element.clientHeight * 0.95,
-        width: header.element.clientWidth,
-      }}"
-    />
-  {/await}
+<section class="bg-gradient-to-tl from-blueGray-900 to-black-900 relative">
   <Container
     className="py-20 space-y-10 flex flex-col items-center z-20 transform translate-y-0"
   >
