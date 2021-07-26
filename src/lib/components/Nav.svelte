@@ -10,7 +10,10 @@
 </script>
 
 <header
-  class="bg-black-900 bg-opacity-70 backdrop-filter backdrop-blur-xl sticky top-0 z-10"
+  class="
+    bg-blueGray-900 bg-opacity-70 backdrop-filter backdrop-blur
+      sticky top-0 z-10
+    "
 >
   <Container className="flex items-baseline justify-between py-4">
     <Logo backgroundColor="black" size="sm" />

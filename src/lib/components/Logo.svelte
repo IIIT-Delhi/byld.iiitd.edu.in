@@ -28,7 +28,8 @@
 
 {#if show}
   <h1
-    class="flex items-center space-x-1 text-primary font-bold {size === 'sm'
+    class="flex items-center space-x-1 text-primary-base font-bold {size ===
+    'sm'
       ? 'text-xl'
       : size === 'md'
       ? 'text-3xl'

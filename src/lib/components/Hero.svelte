@@ -3,8 +3,12 @@
   import Container from "$lib/components/Container.svelte";
   import Logo from "$lib/components/Logo.svelte";
   import { onMount } from "svelte";
-  import Icon from "svelte-icons-pack/Icon.svelte";
-  import LocationMarker from "svelte-icons-pack/hi/HiOutlineLocationMarker";
+  import Icon, {
+    LocationMarker,
+    AcademicCap,
+    Calendar,
+  } from "svelte-hero-icons";
+  import Button from "./Button.svelte";
 
   let showHero = false;
   onMount(() => {
@@ -12,7 +16,7 @@
   });
 </script>
 
-<section class="bg-gradient-to-tl from-blueGray-900 to-black-900 relative">
+<section class="relative bg-gradient-to-tl from-blueGray-900 to-black-900">
   <Container
     className="py-20 space-y-10 flex flex-col items-center z-20 transform translate-y-0"
   >
@@ -21,25 +25,44 @@
       <div class="space-y-4">
         <p
           transition:fly="{{ y: -10, duration: 1000 }}"
-          class="text-4xl text-gray-200 text-center font-bold leading-snug max-w-md"
+          class="max-w-md text-4xl font-bold leading-snug text-center text-gray-200"
         >
           The Software Development Club
         </p>
         <p
           transition:fly="{{ y: -10, duration: 1000, delay: 300 }}"
-          class="text-2xl text-sky-200 text-center font-bold leading-snug max-w-md flex items-center justify-center space-x-2"
+          class="flex items-center justify-center max-w-md space-x-2 text-2xl font-bold leading-snug text-center text-sky-200"
         >
-          <Icon src="{LocationMarker}" size="25" className="animate-bounce" />
+          <span class="animate-bounce">
+            <Icon src="{LocationMarker}" size="25" />
+          </span>
           <span>IIIT Delhi</span>
         </p>
       </div>
       <p
         transition:fly="{{ y: -10, duration: 1000, delay: 600 }}"
-        class="text-xl text-gray-400 text-center leading-snug max-w-sm md:max-w-md"
+        class="max-w-sm text-xl leading-snug text-center text-gray-400 md:max-w-md"
       >
         Bringing together passionate individuals who love to collaborate,
         innovate, createand <span class="font-bold">byld</span>.
       </p>
+      <div
+        transition:fly="{{ y: -10, duration: 1000, delay: 800 }}"
+        class="space-x-3"
+      >
+        <Button>
+          <div class="flex items-center space-x-2">
+            <Icon src="{Calendar}" size="20" />
+            <span>Events</span>
+          </div>
+        </Button>
+        <Button type="outline">
+          <div class="flex items-center space-x-2">
+            <Icon src="{AcademicCap}" size="20" />
+            <span>Byld Fellowship</span>
+          </div></Button
+        >
+      </div>
     {/if}
   </Container>
 </section>
