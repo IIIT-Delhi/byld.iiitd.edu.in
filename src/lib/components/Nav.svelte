@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon, { Menu } from "svelte-hero-icons";
+  import Icon, { Menu, ChevronDown } from "svelte-hero-icons";
   import { slide } from "svelte/transition";
   import Container from "$lib/components/Container.svelte";
   import Logo from "$lib/components/Logo.svelte";
@@ -12,29 +12,49 @@
 <header
   class="
     bg-black-750 bg-opacity-70 backdrop-filter backdrop-blur
-      sticky top-0 z-10
+      sticky top-0 z-10 border-b border-charcoal-600
     "
 >
   <Container className="flex items-baseline justify-between py-4">
     <Logo backgroundColor="black" size="sm" />
-    <nav class="hidden sm:flex text-gray-400 space-x-5 text-sm font-semibold">
+    <nav
+      class="hidden sm:flex text-blueGray-300 space-x-5 text-sm font-semibold"
+    >
       {#each links as link}
         <a href="{link.href}">{link.name}</a>
       {/each}
     </nav>
-    <div class="sm:hidden">
-      <button on:click="{toggleNavigation}" class="text-gray-500">
-        <Icon src="{Menu}" size="20" />
-      </button>
-    </div>
+    <button
+      on:click="{toggleNavigation}"
+      class="sm:hidden self-center text-blueGray-500"
+    >
+      <Icon
+        src="{ChevronDown}"
+        size="24"
+        class="transition-transform duration-200 transform {showNavigation &&
+          'rotate-180'}"
+        solid
+      />
+    </button>
   </Container>
   {#if showNavigation}
     <nav
       transition:slide="{{ duration: 200 }}"
-      class="bg-gray-900 bg-opacity-50 py-10 space-y-5 text-gray-400 text-md font-semibold flex flex-col items-center"
+      class="
+        bg-charcoal-600 bg-opacity-50 py-3 text-blueGray-300
+        text-xl flex flex-col border-t border-charcoal-600
+      "
     >
       {#each links as link}
-        <a href="{link.href}">{link.name}</a>
+        <a
+          href="{link.href}"
+          class="
+            transform active:scale-95 hover:text-white focus:text-white
+            transition-all duration-150 outline-none
+          "
+        >
+          <Container className="py-3">{link.name}</Container>
+        </a>
       {/each}
     </nav>
   {/if}

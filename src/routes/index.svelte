@@ -1,20 +1,30 @@
 <script lang="ts">
+  import { fade } from "svelte/transition";
   import Button from "$lib/components/Button.svelte";
   import Container from "$lib/components/Container.svelte";
   import Hero from "$lib/components/Hero.svelte";
   import Logo from "$lib/components/Logo.svelte";
+  import { onMount } from "svelte";
   import Icon, { Code } from "svelte-hero-icons";
+
+  let mounted = false;
+  onMount(() => (mounted = true));
 </script>
 
 <Hero />
 
-<section class="border-t border-b bg-black-850 border-charcoal-600">
-  <Container className="py-5">
-    <h2 class="text-2xl font-black text-center duration-100 text-charcoal-500">
-      Build, hack, learn.
-    </h2>
-  </Container>
-</section>
+{#if mounted}
+  <section class="border-t border-b bg-black-850 border-charcoal-600">
+    <Container className="py-5">
+      <h2
+        class="text-2xl font-black text-center duration-100 text-charcoal-500"
+        transition:fade="{{ duration: 1000, delay: 800 }}"
+      >
+        Build, hack, learn.
+      </h2>
+    </Container>
+  </section>
+{/if}
 
 <section class="who-are-we py-14 bg-black-900" style="background: #">
   <Container className="space-y-5">
@@ -60,7 +70,7 @@
 </section>
 
 <style>
-.who-are-we {
-  background: #020303;
-}
+  .who-are-we {
+    background: #020303;
+  }
 </style>
