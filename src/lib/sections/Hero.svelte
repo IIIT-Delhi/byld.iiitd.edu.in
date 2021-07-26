@@ -1,14 +1,14 @@
 <script lang="ts">
-  import { fly } from "svelte/transition";
-  import Container from "$lib/components/Container.svelte";
-  import Logo from "$lib/components/Logo.svelte";
-  import { onMount } from "svelte";
   import Icon, {
     LocationMarker,
     AcademicCap,
     Calendar,
   } from "svelte-hero-icons";
-  import Button from "./Button.svelte";
+  import { fly } from "svelte/transition";
+  import { onMount } from "svelte";
+  import Container from "$lib/components/Container.svelte";
+  import Logo from "$lib/components/Logo.svelte";
+  import Button from "$lib/components/Button.svelte";
 
   let mounted = false;
   onMount(() => {

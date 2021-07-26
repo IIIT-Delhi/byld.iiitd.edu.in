@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Lakshya Agrawal",
+    "position": "Admin",
+    "image": "/images/members/lakshya.jpg"
+  },
+  {
+    "name": "Vasu Goel",
+    "position": "Admin",
+    "image": "/images/members/vasu.jpg"
+  },
+  {
+    "name": "Mihir Chaturvedi",
+    "position": "Admin",
+    "image": "/images/members/mihir.jpg"
+  },
+  {
+    "name": "Srijan Jain",
+    "position": "Moderator",
+    "image": "/images/members/srijan.jpg"
+  },
+  {
+    "name": "Saksham Mrig",
+    "position": "Moderator",
+    "image": "/images/members/mihir.jpg"
+  }
+]

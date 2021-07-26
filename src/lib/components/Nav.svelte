@@ -11,12 +11,15 @@
 
 <header
   class="
-    bg-black-750 bg-opacity-70 backdrop-filter backdrop-blur
+    bg-black-750 bg-opacity-70 backdrop-filter backdrop-blur-lg
       sticky top-0 z-10 border-b border-charcoal-600
     "
 >
   <Container className="flex items-baseline justify-between py-4">
-    <Logo backgroundColor="black" size="sm" />
+    <div class="flex flex-col items-center">
+      <Logo backgroundColor="black" size="sm" />
+      <span class="text-blueGray-400 text-xs">develop@iiitd</span>
+    </div>
     <nav
       class="hidden sm:flex text-blueGray-300 space-x-5 text-sm font-semibold"
     >
