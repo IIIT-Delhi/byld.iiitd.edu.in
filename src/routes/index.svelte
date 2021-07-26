@@ -8,15 +8,15 @@
 
 <Hero />
 
-<section class="border-t border-b bg-blueGray-900 border-blueGray-800">
+<section class="border-t border-b bg-black-850 border-charcoal-600">
   <Container className="py-5">
-    <h2 class="text-2xl font-black text-center duration-100 text-blueGray-500">
+    <h2 class="text-2xl font-black text-center duration-100 text-charcoal-500">
       Build, hack, learn.
     </h2>
   </Container>
 </section>
 
-<section class="py-14 ">
+<section class="who-are-we py-14 bg-black-900" style="background: #">
   <Container className="space-y-5">
     <h2 class="text-3xl font-black text-gray-100">Who are we?</h2>
     <p class="text-xl leading-normal text-gray-400">
@@ -27,7 +27,7 @@
   </Container>
 </section>
 
-<section class="py-14  bg-black-500">
+<section class="py-14 bg-black-800">
   <Container className="space-y-5">
     <h2 class="text-3xl font-black text-gray-100">How to join</h2>
     <p class="text-lg leading-normal text-gray-400">
@@ -43,7 +43,7 @@
   </Container>
 </section>
 
-<section class="border-t bg-black-900 border-primary-900">
+<section class="border-t bg-black-900 border-charcoal-600">
   <Container className="py-7">
     <div class="flex flex-col space-y-3 text-sm">
       <Logo size="sm" backgroundColor="black" />
@@ -58,3 +58,9 @@
     </div>
   </Container>
 </section>
+
+<style>
+.who-are-we {
+  background: #020303;
+}
+</style>

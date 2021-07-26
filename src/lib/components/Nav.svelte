@@ -11,7 +11,7 @@
 
 <header
   class="
-    bg-blueGray-900 bg-opacity-70 backdrop-filter backdrop-blur
+    bg-black-750 bg-opacity-70 backdrop-filter backdrop-blur
       sticky top-0 z-10
     "
 >

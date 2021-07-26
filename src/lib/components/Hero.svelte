@@ -10,18 +10,18 @@
   } from "svelte-hero-icons";
   import Button from "./Button.svelte";
 
-  let showHero = false;
+  let mounted = false;
   onMount(() => {
-    showHero = true;
+    mounted = true;
   });
 </script>
 
-<section class="relative bg-gradient-to-tl from-blueGray-900 to-black-900">
+<section class="relative bg-gradient-to-tl from-charcoal-600 to-black-900">
   <Container
     className="py-20 space-y-10 flex flex-col items-center z-20 transform translate-y-0"
   >
     <Logo backgroundColor="black" size="lg" />
-    {#if showHero}
+    {#if mounted}
       <div class="space-y-4">
         <p
           transition:fly="{{ y: -10, duration: 1000 }}"

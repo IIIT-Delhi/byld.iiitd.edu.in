@@ -8,12 +8,12 @@
   <button
     on:click
     class="py-2 px-3 text-lg text-blueGray-200 font-bold rounded-md
-    border-2 border-blueGray-700 transition-all duration-200
+    border-2 border-charcoal-base transition-all duration-200
     transform filter outline-none shadow-md
-    hover:bg-blueGray-700 hover:brightness-125
-    active:scale-90 focus:ring-2 focus:ring-blueGray-600
+    hover:bg-charcoal-500 hover:brightness-125
+    active:scale-90 focus:ring-2 focus:ring-charcoal-base
     {type === 'primary'
-      ? 'bg-blueGray-700'
+      ? 'bg-charcoal-base'
       : 'bg-transparent text-blueGray-200'}"
   >
     <slot />
