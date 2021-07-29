@@ -7,24 +7,26 @@
 </script>
 
 <div
-  class="flex flex-col divide-y space-y-2 divide-sec-400 text-gray-100 bg-sec-800 p-4 rounded-md border-2 border-sec-400 flex-1"
+  class="flex flex-col flex-1 p-4 text-gray-100 border-2 cursor-pointer space-y-2 transition-all duration-200 divide-y rounded-md hover:-translate-y-2 hover:shadow-xl hover:brightness-125 divide-sec-700 bg-sec-500 border-sec-500"
 >
   <div class="flex flex-row justify-between">
-    <div class="flex flex-col space-y-1 items-start">
-      <h3 class="font-bold text-lg">{title}</h3>
-      <p class="text-gray-400 text-sm">{subtitle}</p>
+    <div class="flex flex-col items-start space-y-1">
+      <h3 class="text-lg font-bold">{title}</h3>
+      <p class="text-sm font-light text-gray-300">{subtitle}</p>
     </div>
-    <div><p class="text-sec-100 italic font-semibold">{status}</p></div>
+    <div><p class="italic font-semibold text-tert-700">{status}</p></div>
   </div>
-  <div class="flex flex-col space-y-3 pt-2">
+  <div class="flex flex-col justify-between flex-1 pt-2">
     <div>
-      <p class="font-semibold inline text-sm">Contributors:</p>
-      <p class="text-gray-400 inline text-sm">{contributors.join(", ")}</p>
+      <p class="inline text-sm font-semibold">Contributors:</p>
+      <p class="inline text-sm font-light text-gray-300">
+        {contributors.join(", ")}
+      </p>
     </div>
-    <div class="flex flex-row space-x-2">
+    <div class="flex flex-row mt-3 space-x-2">
       {#each techStack as tech}
         <div
-          class="text-xs font-bold py-1.5 px-2 rounded border border-sec-200 bg-sec-400 text-gray-300"
+          class="text-xs font-semibold py-1.5 px-2 rounded border border-sec-600 bg-sec-200 text-tert-200"
         >
           {tech}
         </div>

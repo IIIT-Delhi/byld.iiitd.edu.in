@@ -4,9 +4,9 @@
   export let size = "20";
 </script>
 
-<div class="group flex items-center relative mb-5">
+<div class="relative flex items-center mb-5 group">
   <a
-    class="group-hover:opacity-100 opacity-0 absolute right-full pr-2 transition-opacity"
+    class="absolute pr-2 opacity-0 group-hover:opacity-100 right-full transition-opacity"
     href="#{id}"
   >
     <Icon src="{Link}" size="{size}" class="text-gray-300" />
