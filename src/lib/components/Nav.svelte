@@ -15,7 +15,7 @@
       sticky top-0 z-10 border-b border-charcoal-600
     "
 >
-  <Container className="flex items-baseline justify-between py-4">
+  <Container className="flex items-center justify-between py-4">
     <div class="flex flex-col items-center">
       <Logo backgroundColor="black" size="sm" />
       <span class="text-blueGray-400 text-xs">develop@iiitd</span>
