@@ -11,8 +11,8 @@
 
 <header
   class="
-    bg-black-750 bg-opacity-70 backdrop-filter backdrop-blur-lg
-      sticky top-0 z-10 border-b border-charcoal-600
+    bg-secondary-600 bg-opacity-70 backdrop-filter backdrop-blur-lg
+      sticky top-0 z-10 border-b border-secondary-400
     "
 >
   <Container className="flex items-baseline justify-between py-4">
@@ -44,8 +44,8 @@
     <nav
       transition:slide="{{ duration: 200 }}"
       class="
-        bg-charcoal-600 bg-opacity-50 py-3 text-blueGray-300
-        text-xl flex flex-col border-t border-charcoal-600
+        bg-secondary-400 bg-opacity-50 py-3 text-blueGray-300
+        text-xl flex flex-col border-t border-secondary-400
       "
     >
       {#each links as link}
