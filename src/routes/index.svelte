@@ -4,6 +4,7 @@
   import HowToJoin from "$lib/sections/HowToJoin.svelte";
   import WhoAreWe from "$lib/sections/WhoAreWe.svelte";
   import ContactUs from "$lib/sections/ContactUs.svelte";
+  import Projects from "$lib/sections/Projects.svelte";
 </script>
 
 <Hero />
@@ -13,5 +14,7 @@
 <WhoAreWe />
 
 <HowToJoin />
+
+<Projects />
 
 <ContactUs />
