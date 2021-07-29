@@ -4,7 +4,7 @@
   import ProjectCard from "$lib/components/ProjectCard.svelte";
 </script>
 
-<section class="py-14 bg-black-850 border-t border-black-750 w-full">
+<section class="py-14 bg-sec-850 border-t border-sec-600 w-full">
   <Container className="space-y-5 w-full" heading="Projects">
     <p class="text-lg leading-normal text-gray-400">
       Check out the projects our members have bylt.
