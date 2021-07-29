@@ -5,7 +5,7 @@
   import Icon, { UserGroup } from "svelte-hero-icons";
 </script>
 
-<section class="py-14 bg-secondary-850">
+<section class="py-14 bg-sec-850">
   <Container className="space-y-5" heading="Who are we?">
     <p class="text-xl leading-normal text-gray-400">
       We’re a bunch of students who love building apps and hacks using various

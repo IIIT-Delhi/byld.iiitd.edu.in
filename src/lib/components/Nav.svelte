@@ -11,11 +11,11 @@
 
 <header
   class="
-    bg-secondary-600 bg-opacity-70 backdrop-filter backdrop-blur-lg
-      sticky top-0 z-10 border-b border-secondary-400
+    bg-sec-600 bg-opacity-70 backdrop-filter backdrop-blur-lg
+      sticky top-0 z-10 border-b border-sec-400
     "
 >
-  <Container className="flex items-baseline justify-between py-4">
+  <Container className="flex items-center justify-between py-4">
     <div class="flex flex-col items-center">
       <Logo backgroundColor="black" size="sm" />
       <span class="text-blueGray-400 text-xs">develop@iiitd</span>
@@ -44,8 +44,8 @@
     <nav
       transition:slide="{{ duration: 200 }}"
       class="
-        bg-secondary-400 bg-opacity-50 py-3 text-blueGray-300
-        text-xl flex flex-col border-t border-secondary-400
+        bg-sec-400 bg-opacity-50 py-3 text-blueGray-300
+        text-xl flex flex-col border-t border-sec-400
       "
     >
       {#each links as link}

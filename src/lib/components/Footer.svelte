@@ -4,7 +4,7 @@
   import Logo from "./Logo.svelte";
 </script>
 
-<section class="border-t bg-secondary-900 border-secondary-400">
+<section class="border-t bg-sec-900 border-sec-400">
   <Container className="py-7">
     <div class="flex flex-col space-y-3 text-sm">
       <Logo size="sm" backgroundColor="black" />

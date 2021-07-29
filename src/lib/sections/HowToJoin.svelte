@@ -4,7 +4,7 @@
   import Container from "$lib/components/Container.svelte";
 </script>
 
-<section class="py-14 bg-secondary-800 border-t border-secondary-600">
+<section class="py-14 bg-sec-800 border-t border-sec-600">
   <Container className="space-y-5" heading="How to join">
     <p class="text-lg leading-normal text-gray-400">
       Byld organizes a Hackathon once every month of the semester. The members

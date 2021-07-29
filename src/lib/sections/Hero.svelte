@@ -16,7 +16,7 @@
   });
 </script>
 
-<section class="relative bg-gradient-to-tl from-secondary-500 to-secondary-900">
+<section class="relative bg-gradient-to-tl from-sec-500 to-sec-900">
   <Container
     className="py-20 space-y-10 flex flex-col items-center z-20 transform translate-y-0"
   >
