@@ -10,18 +10,18 @@
 </script>
 
 <header
-  class="
-    bg-sec-600 bg-opacity-70 backdrop-filter backdrop-blur-lg
-      sticky top-0 z-10 border-b border-sec-400
-    "
+  class="sticky top-0 z-10 border-b 
+  bg-sec-600 bg-opacity-70 backdrop-filter backdrop-blur-lg
+ border-sec-400
+"
 >
   <Container className="flex items-center justify-between py-4">
     <div class="flex flex-col items-center">
       <Logo backgroundColor="black" size="sm" />
-      <span class="text-blueGray-400 text-xs">develop@iiitd</span>
+      <span class="text-xs text-blueGray-400">develop@iiitd</span>
     </div>
     <nav
-      class="hidden sm:flex text-blueGray-300 space-x-5 text-sm font-semibold"
+      class="hidden text-sm font-semibold sm:flex text-blueGray-300 space-x-5"
     >
       {#each links as link}
         <a href="{link.href}">{link.name}</a>
@@ -29,7 +29,7 @@
     </nav>
     <button
       on:click="{toggleNavigation}"
-      class="sm:hidden self-center text-blueGray-500"
+      class="self-center sm:hidden text-blueGray-500"
     >
       <Icon
         src="{ChevronDown}"
@@ -43,18 +43,18 @@
   {#if showNavigation}
     <nav
       transition:slide="{{ duration: 200 }}"
-      class="
-        bg-sec-400 bg-opacity-50 py-3 text-blueGray-300
-        text-xl flex flex-col border-t border-sec-400
-      "
+      class="flex flex-col py-3 text-xl border-t 
+  bg-sec-400 bg-opacity-50 text-blueGray-300
+ border-sec-400
+"
     >
       {#each links as link}
         <a
           href="{link.href}"
           class="
-            transform active:scale-95 hover:text-white focus:text-white
-            transition-all duration-150 outline-none
-          "
+  transform active:scale-95 hover:text-white focus:text-white
+ transition-all duration-150 outline-none
+"
         >
           <Container className="py-3">{link.name}</Container>
         </a>

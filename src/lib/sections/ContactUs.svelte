@@ -37,7 +37,7 @@
   ];
 </script>
 
-<section class="py-14 bg-sec-850 border-t border-sec-600">
+<section class="border-t py-14 bg-sec-800 border-sec-600">
   <Container className="space-y-5" heading="Contact us">
     <p class="text-lg leading-normal text-gray-400">
       For the quickest replies, consider email us or sending a message on Byld's
@@ -45,10 +45,10 @@
     </p>
     <div
       class="
-        grid gap-5
-        grid-row-3 sm:grid-rows-2 lg:grid-rows-1
-        grid-cols-2 sm:grid-cols-3 lg:grid-cols-5
-      "
+  grid gap-5
+ grid-row-3 sm:grid-rows-2 lg:grid-rows-1
+ grid-cols-2 sm:grid-cols-3 lg:grid-cols-5
+"
     >
       {#each networks as network}
         <Button type="outline">

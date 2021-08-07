@@ -13,22 +13,22 @@
     </p>
 
     <div
-      class="
-        py-5 grid gap-y-10
-        grid-rows-2 md:grid-rows-1
-        grid-cols-3 md:grid-cols-5
-      "
+      class="py-5 
+  grid gap-y-10
+ grid-rows-2 md:grid-rows-1
+ grid-cols-3 md:grid-cols-5
+"
     >
       {#each positions as member}
         <div class="flex flex-col items-center space-y-3">
           <img
-            class="h-20 w-20 rounded-full"
+            class="w-20 h-20 rounded-full"
             src="{member.image}"
             alt="{member.name}"
           />
-          <div class="space-y-1 text-center">
-            <p class="font-bold text-white text-sm">{member.name}</p>
-            <p class="text-blueGray-300 text-xs">{member.position}</p>
+          <div class="text-center space-y-1">
+            <p class="text-sm font-bold text-white">{member.name}</p>
+            <p class="text-xs text-blueGray-300">{member.position}</p>
           </div>
         </div>
       {/each}

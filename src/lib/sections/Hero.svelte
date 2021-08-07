@@ -18,7 +18,7 @@
 
 <section class="relative bg-gradient-to-tl from-sec-500 to-sec-900">
   <Container
-    className="py-20 space-y-10 flex flex-col items-center z-20 transform translate-y-0"
+    className="z-20 flex flex-col items-center py-20 space-y-10 transform translate-y-0"
   >
     <Logo backgroundColor="black" size="lg" />
     {#if mounted}
@@ -31,7 +31,7 @@
         </p>
         <p
           transition:fly="{{ y: -10, duration: 1000, delay: 300 }}"
-          class="flex items-center justify-center max-w-md space-x-2 text-2xl font-bold leading-snug text-center text-sky-200"
+          class="flex items-center justify-center max-w-md text-2xl font-bold leading-snug text-center space-x-2 text-sky-200"
         >
           <span class="animate-bounce">
             <Icon src="{LocationMarker}" size="25" />
