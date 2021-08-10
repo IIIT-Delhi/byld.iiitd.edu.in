@@ -2,6 +2,7 @@
   import Button from "$lib/components/Button.svelte";
   import Container from "$lib/components/Container.svelte";
   import positions from "$lib/data/positions.json";
+  import Admins from "$lib/components/Admins.svelte";
   import Icon, { UserGroup } from "svelte-hero-icons";
 </script>
 
@@ -12,27 +13,7 @@
       tools and technologies.
     </p>
 
-    <div
-      class="py-5 
-  grid gap-y-10
- grid-rows-2 md:grid-rows-1
- grid-cols-3 md:grid-cols-5
-"
-    >
-      {#each positions as member}
-        <div class="flex flex-col items-center space-y-3">
-          <img
-            class="w-20 h-20 rounded-full"
-            src="{member.image}"
-            alt="{member.name}"
-          />
-          <div class="text-center space-y-1">
-            <p class="text-sm font-bold text-white">{member.name}</p>
-            <p class="text-xs text-blueGray-300">{member.position}</p>
-          </div>
-        </div>
-      {/each}
-    </div>
+    <Admins />
     <Button>
       <div class="flex items-center justify-center space-x-2">
         <Icon src="{UserGroup}" size="20" />

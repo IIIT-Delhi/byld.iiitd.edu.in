@@ -10,6 +10,19 @@
     - SQL
     - HTML
     - CSS
+- name: Mihir Chaturvedi
+  email: ananya19018@iiitd.ac.in
+  github: https://github.com/ananyalohani
+  skills:
+    - Svelte
+    - Sapper
+    - SvelteKit
+    - Tailwind CSS
+    - Nginx
+    - React
+    - Next.js
+    - HTML
+    - CSS
 - name: Ananya Lohani
   email: ananya19018@iiitd.ac.in
   github: https://github.com/ananyalohani
@@ -20,6 +33,19 @@
     - Tailwind CSS
     - MongoDB
     - SQL
+    - HTML
+    - CSS
+- name: Mihir Chaturvedi
+  email: ananya19018@iiitd.ac.in
+  github: https://github.com/ananyalohani
+  skills:
+    - Svelte
+    - Sapper
+    - SvelteKit
+    - Tailwind CSS
+    - Nginx
+    - React
+    - Next.js
     - HTML
     - CSS
 - name: Ananya Lohani
@@ -46,22 +72,6 @@
     - SQL
     - HTML
     - CSS
-- name: Ananya Lohani
-  email: ananya19018@iiitd.ac.in
-  github: https://github.com/ananyalohani
-  skills:
-    - React
-    - Next.js
-    - Gatsby
-    - Tailwind CSS
-    - MongoDB
-    - SQL
-    - HTML
-    - CSS
-- name: Ananya Lohani
-  email: ananya19018@iiitd.ac.in
-  github: https://github.com/ananyalohani
-  skills:
     - React
     - Next.js
     - Gatsby
