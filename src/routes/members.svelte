@@ -13,7 +13,7 @@
 
 <section class="text-gray-200 bg-sec-800 py-14">
   <Container heading="Members">
-    <div class="overflow-x-scroll">
+    <div class="overflow-x-auto">
       <table class="w-full mt-10">
         <thead>
           <tr class="header-row">
