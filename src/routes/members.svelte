@@ -3,10 +3,11 @@
   import IconHi, { Mail } from "svelte-hero-icons";
   import AiFillGithub from "svelte-icons-pack/ai/AiFillGithub";
   import Container from "$lib/components/Container.svelte";
-  import members from "$lib/data/members.yml";
+  import members_ from "$lib/data/members.yml";
   import Admins from "$lib/components/Admins.svelte";
+  import type { Member } from "$lib/types";
 
-  console.log(members);
+  const members = members_ as Member[];
   const iconColor = "#2A5776";
 </script>
 
