@@ -7,7 +7,7 @@
 </script>
 
 <div
-  class="flex flex-col flex-1 p-4 space-y-2 text-gray-100 transition-all duration-200 border-2 divide-y rounded-md cursor-pointer group hover:-translate-y-1 hover:shadow-xl divide-sec-500 hover:divide-sec-700 hover:bg-sec-500 bg-sec-800 border-sec-500"
+  class="flex flex-col flex-1 p-4 text-gray-100 border-2 cursor-pointer space-y-2 transition-all duration-200 divide-y rounded-md group hover:-translate-y-1 hover:shadow-xl divide-sec-500 hover:divide-sec-700 hover:bg-sec-500 bg-sec-800 border-sec-500"
 >
   <div class="flex flex-row justify-between">
     <div class="flex flex-col items-start space-y-1">

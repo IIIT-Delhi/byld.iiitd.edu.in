@@ -1,64 +1,66 @@
 <script lang="ts">
-  import Icon from "svelte-icons-pack/Icon.svelte";
-  import IconHi, { Mail } from "svelte-hero-icons";
-  import AiFillGithub from "svelte-icons-pack/ai/AiFillGithub";
+  import Admins from "$lib/components/Admins.svelte";
   import Container from "$lib/components/Container.svelte";
   import members_ from "$lib/data/members.yml";
-  import Admins from "$lib/components/Admins.svelte";
   import type { Member } from "$lib/types";
+  import IconHi, { Mail } from "svelte-hero-icons";
+  import AiFillGithub from "svelte-icons-pack/ai/AiFillGithub";
+  import Icon from "svelte-icons-pack/Icon.svelte";
 
   const members = members_ as Member[];
   const iconColor = "#2A5776";
 </script>
 
-<section class="bg-sec-800 py-14 text-gray-200">
+<section class="text-gray-200 bg-sec-800 py-14">
   <Container heading="Members">
-    <table class="w-full mt-10">
-      <thead>
-        <tr class="header-row">
-          <th>Name</th>
-          <th>Skills</th>
-        </tr>
-      </thead>
-      <tbody>
-        {#each members as member}
-          <tr class="row">
-            <td class="w-56">
-              <div class="w-full flex flex-row space-x-2">
-                <p>{member.name}</p>
-                <a class="text-sec-100" href="mailto:{member.email}"
-                  ><IconHi src="{Mail}" solid class="h-5 w-5" /></a
-                >
-                <a class="text-sec-100" href="{member.github}"
-                  ><Icon
-                    src="{AiFillGithub}"
-                    className="h-5 w-5"
-                    color="{iconColor}"
-                  /></a
-                >
-              </div>
-            </td>
-            <td>
-              <div class="flex flex-wrap w-full">
-                {#each member.skills as skill}
-                  <div
-                    class="text-xs py-1.5 px-2 rounded border bg-sec-400 border-sec-600 text-tert-200 m-0.5"
-                  >
-                    {skill}
-                  </div>
-                {/each}
-              </div>
-            </td>
+    <div class="overflow-x-scroll">
+      <table class="w-full mt-10">
+        <thead>
+          <tr class="header-row">
+            <th>Name</th>
+            <th>Skills</th>
           </tr>
-        {/each}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {#each members as member}
+            <tr class="row">
+              <td>
+                <div class="flex flex-row w-full space-x-2">
+                  <p class="whitespace-nowrap">{member.name}</p>
+                  <a class="text-sec-100" href="mailto:{member.email}"
+                    ><IconHi src="{Mail}" solid class="w-5 h-5" /></a
+                  >
+                  <a class="text-sec-100" href="{member.github}"
+                    ><Icon
+                      src="{AiFillGithub}"
+                      className="h-5 w-5"
+                      color="{iconColor}"
+                    /></a
+                  >
+                </div>
+              </td>
+              <td>
+                <div id="skills" class="flex flex-wrap sm:w-full">
+                  {#each member.skills as skill}
+                    <div
+                      class="text-xs py-1.5 px-2 rounded border bg-sec-400 border-sec-600 text-tert-200 m-0.5"
+                    >
+                      {skill}
+                    </div>
+                  {/each}
+                </div>
+              </td>
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    </div>
   </Container>
 </section>
 
 <section class="py-14 bg-sec-800">
-  <Container className="space-y-5" heading="Admins">
-    <Admins />
+  <Container heading="Admins">
+    <Admins className="mt-10" />
   </Container>
 </section>
 
@@ -75,11 +77,9 @@
     @apply py-2 px-4 border-2 border-sec-800 rounded-lg text-sm;
   }
 
-  .contact a {
-    @apply w-full flex justify-center text-sec-100;
-  }
-
-  .contact {
-    @apply w-14;
+  @media only screen and (max-width: 640px) {
+    #skills {
+      min-width: 30rem;
+    }
   }
 </style>
