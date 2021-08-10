@@ -1,7 +1,6 @@
 <script>
   import Button from "$lib/components/Button.svelte";
   import Container from "$lib/components/Container.svelte";
-  import positions from "$lib/data/positions.json";
   import Admins from "$lib/components/Admins.svelte";
   import Icon, { UserGroup } from "svelte-hero-icons";
 </script>

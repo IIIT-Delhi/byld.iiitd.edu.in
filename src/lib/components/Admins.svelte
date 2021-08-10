@@ -1,5 +1,8 @@
-<script>
-  import positions from "$lib/data/positions.json";
+<script lang="ts">
+  import _positions from "$lib/data/positions.yml";
+  import type { Position } from "$lib/types";
+
+  const positions = _positions as Position[];
 
   export let className = "";
 </script>
