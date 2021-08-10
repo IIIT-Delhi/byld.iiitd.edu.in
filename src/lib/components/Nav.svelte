@@ -10,7 +10,7 @@
 </script>
 
 <header
-  class="sticky top-0 z-10 border-b 
+  class="sticky top-0 z-10 border-b
   bg-sec-600 bg-opacity-70 backdrop-filter backdrop-blur-lg
  border-sec-400
 "
@@ -43,7 +43,7 @@
   {#if showNavigation}
     <nav
       transition:slide="{{ duration: 200 }}"
-      class="flex flex-col py-3 text-xl border-t 
+      class="flex flex-col py-3 text-xl border-t
   bg-sec-400 bg-opacity-50 text-blueGray-300
  border-sec-400
 "

@@ -1,6 +1,6 @@
 [
   { "name": "About", "href": "/" },
-  { "name": "Members", "href": "/" },
+  { "name": "Members", "href": "/members" },
   { "name": "Events", "href": "/" },
   { "name": "Contact", "href": "/" }
 ]
