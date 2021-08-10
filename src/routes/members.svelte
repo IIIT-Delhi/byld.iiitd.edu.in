@@ -27,28 +27,37 @@
               <td>
                 <div class="flex flex-row w-full space-x-2">
                   <p class="whitespace-nowrap">{member.name}</p>
-                  <a class="text-sec-100" href="mailto:{member.email}"
-                    ><IconHi src="{Mail}" solid class="w-5 h-5" /></a
-                  >
-                  <a class="text-sec-100" href="{member.github}"
-                    ><Icon
-                      src="{AiFillGithub}"
-                      className="h-5 w-5"
-                      color="{iconColor}"
-                    /></a
-                  >
+                  {#if member.email}
+                    <a class="text-sec-100" href="mailto:{member.email}"
+                      ><IconHi src="{Mail}" solid class="w-5 h-5" /></a
+                    >
+                  {/if}
+                  {#if member.github}
+                    <a class="text-sec-100" href="{member.github}"
+                      ><Icon
+                        src="{AiFillGithub}"
+                        className="h-5 w-5"
+                        color="{iconColor}"
+                      /></a
+                    >
+                  {/if}
                 </div>
               </td>
               <td>
-                <div id="skills" class="flex flex-wrap sm:w-full">
-                  {#each member.skills as skill}
-                    <div
-                      class="text-xs py-1.5 px-2 rounded border bg-sec-400 border-sec-600 text-tert-200 m-0.5"
-                    >
-                      {skill}
-                    </div>
-                  {/each}
-                </div>
+                {#if member.skills && member.skills.length}
+                  <div id="skills" class="flex flex-wrap sm:w-full">
+                    {#each member.skills as skill}
+                      <div
+                        class="text-xs py-1.5 px-2 rounded border bg-sec-400 border-sec-600 text-tert-200 m-0.5"
+                      >
+                        {skill}
+                      </div>
+                    {/each}
+                  </div>
+                {/if}
+                {#if member.details}
+                  <p class="mt-1 ml-1 text-xs">{member.details}</p>
+                {/if}
               </td>
             </tr>
           {/each}

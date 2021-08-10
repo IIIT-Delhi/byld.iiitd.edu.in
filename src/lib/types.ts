@@ -3,4 +3,5 @@ export interface Member {
   email: string,
   github: string,
   skills: [String]
+  details: String
 }
