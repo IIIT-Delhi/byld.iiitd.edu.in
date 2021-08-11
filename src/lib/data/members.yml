@@ -1,0 +1,552 @@
+- github: https://github.com/danish-goel
+
+  name: Danish Goel
+  skills: [Android]
+  email: danish12032@iiitd.ac.in
+
+- github: https://github.com/MnnGkhr
+  name: Manan Gakhar
+  skills: [Android]
+  email: manan12054@iiitd.ac.in
+
+- github:
+  name: Prasant Chidella
+  skills: []
+  email: prasant12075@iiitd.ac.in
+
+- github: https://github.com/pulkitarora21
+  name: Pulkit Arora
+  skills: [PHP]
+  email: pulkit12082@iiitd.ac.in
+
+- github: https://github.com/Udayan12167
+  name: Udayan Tandon
+  skills: [Java, C, Python, Ruby on Rails]
+  email: udayan12167@iiitd.ac.in
+
+- github: https://github.com/shubham12101
+  name: Shubham Singh
+  skills: [C, Java, C++, Python]
+  email: shubham12101@iiitd.ac.in
+
+- github: https://github.com/Tushar-Gupta
+  name: Tushar Gupta
+  skills: [HTML, CSS, Python, Django, C]
+  email: tushar13113@iiitd.ac.in
+
+- github: https://github.com/gaurav13035
+  name: Gaurav Bansal
+  skills: [Python, Django, HTML, CSS, PHP, C]
+  email: gaurav13035@iiitd.ac.in
+
+- github:
+  name: Jaisurya B
+  skills: []
+  email: jaisurya13028@iiitd.ac.in
+
+  # this one
+- github: https://github.com/gurshabad
+  name: Gurshabad Grover
+  email: gurshabad13038@iiitd.ac.in
+  details: awesomness and rolling
+
+- github: https://github.com/sahilshekhawat
+  name: Sahil Shekhawat
+  skills: [Python, Django, C, HTML, CSS, JavaScript]
+  email: sahil13083@iiitd.ac.in
+
+- github:
+  name: Mohit Wadhwa
+  skills: []
+  email: mohit13063@iiitd.ac.in
+
+- github: https://github.com/krngrvr09
+  name: Karan Grover
+  skills: [Python, Django, HTML, CSS, JavaScript, C]
+  email: karan13048@iiitd.ac.in
+
+- github: https://github.com/manavbatra
+  name: Manav Batra
+  skills: [Python, C, C++, HTML, Shell]
+  email: manav13057@iiitd.ac.in
+
+- github: https://github.com/namchester
+  name: Naman Gupta
+  skills: [Python, Flask]
+  email: naman13064@iiitd.ac.in
+
+- github:
+  name: Aditi Mithal
+  skills: []
+  email: aditim13122@iiitd.ac.in
+
+- github: https://github.com/lionaneesh
+  name: Aneesh Dogra
+  skills: [Python, Django, App Engine, C, Shell, Flask]
+  email: aneesh13014@iiitd.ac.in
+
+- github: https://github.com/SrijanBatra
+  name: Srijan Batra
+  skills: [Python]
+  email: srijan13107@iiitd.ac.in
+
+- github: https://github.com/mananwason
+  name: Manan Wasan
+  skills: [Android]
+  email: manan13056@iiitd.ac.in
+
+- github: https://github.com/atul10595
+  name: Atul Jain
+  skills: [Django, HTML, CSS, JavaScript, jQuery]
+  email: atul13025@iiitd.ac.in
+
+- github:
+  name: Anjali Ujjainia
+  skills: []
+  email: anjali13016@iiitd.ac.in
+
+- github:
+  name: Megha Arora
+  skills: []
+  email: megha12059@iiitd.ac.in
+
+- github: https://github.com/darkryder
+  name: Sambhav Satija
+  skills: [Python, Django, C]
+  email: sambhav13085@iiitd.ac.in
+
+- github: https://github.com/rush-skills
+  name: Ankur Singh
+  skills: []
+  email: ankur13019@iiitd.ac.in
+
+- github: https://github.com/soummyaah
+  name: Soumya Sharma
+  skills: []
+  email: soumya13106@iiitd.ac.in
+
+- github: https://github.com/kshanmol
+  name: Anmol Singh
+  skills: []
+  email: anmol13012@iiitd.ac.in
+  details: MAD skillz
+
+- email: abhinay18209@iiitd.ac.in
+  name: Abhinay Gupta
+  skills: [Python, Java]
+
+- email: abhishek16005@iiitd.ac.in
+  name: abshishek16005
+  github: https://github.com/ovshake
+  skills: [Machine Learning, Reinforcement Learning, Deep Learning]
+  details: Machine Intelligence and its fields
+
+- email: aditya15007@iiitd.ac.in
+  name: Aditya Adhikary
+  github: https://github.com/indianauthority97
+  skills: [Java, GWT]
+
+- email: akarsha15010@iiitd.ac.in
+  name: Akarsha Sehwag
+  github: https://github.com/aksh98
+  skills: [Django, Python, C++]
+  details: Development - can learn and do
+
+- email: anant16129@iiitd.ac.in
+  name: Anant Sharma
+
+- email: anish17281@iiitd.ac.in
+  name: Anish Bhardwaj
+  github: https://github.com/bhardwajanish
+  skills: [Python, C]
+
+- email: anushka16134@iiitd.ac.in
+  name: anushka16134
+
+- email: baani16234@iiitd.ac.in
+  name: baani16234
+  github: https://github.com/baani_leen
+  skills: [Android, 3D VR Game, JavaFX, Flask, TKinter]
+
+- email: brihi16142@iiitd.ac.in
+  name: Brihi Joshi
+  github: https://github.com/brihijoshi
+  skills: [Python, IoT, Node.js, Ruby on Rails, Hadoop]
+
+- email: chirag17041@iiitd.ac.in
+  name: Chirag Jain
+  github: https://github.com/chirag-jn
+  skills: [Python, Android, Firebase, React, Web Development]
+
+- email: daksh17336@iiitd.ac.in
+  name: Daksh
+  github: https://github.com/Daksh
+  skills: [C, Python]
+
+- email: deepak16030@iiitd.ac.in
+  name: Deepak Magesh Srivatsav
+  github: https://github.com/dvatsav
+  skills: [Android]
+  details: Although it's not a top skill. I have started contributing to open source a little more frequently.
+
+- email: diptanshu18232@iiitd.ac.in
+  name: Diptanshu Mittal
+  skills: [Python, Java, Flutter, Android, Web Development]
+
+- email: divam14038@iiitd.ac.in
+  name: Divam Gupta
+  github: https://github.com/divamgupta
+  skills: [Node.js, JavaScript, PHP, HTML, cocos2d-JavaScript, Python]
+
+- email: divyam17339@iiitd.ac.in
+  name: Divyam Bhagchandani
+
+- email: divyanshu15028@iiitd.ac.in
+  name: Divyanshu Talwar
+  github: https://github.com/divyanshu-talwar
+  skills:
+    [
+      Pytorch,
+      Tensorflow,
+      CUDA,
+      Node.js,
+      Django,
+      JavaScript,
+      jQuery,
+      HTML,
+      CSS,
+      Shell,
+      Python,
+      C,
+      C++,
+      Java,
+      Git,
+      ML,
+      Reinforcement Learning,
+      Deep Learning,
+      Collaborative Filtering,
+      GPU computing,
+    ]
+
+- email: falak16018@iiitd.ac.in
+  name: Falak
+
+- email: gunkirat15032@iiitd.ac.in
+  name: Gunkirat Kaur
+  github: https://github.com/gunkiratk
+  skills: [Andriod, Django, Ruby, Flask]
+
+- email: gurek15033@iiitd.ac.in
+  name: Gurek
+
+- email: himanshu18337@iiitd.ac.in
+  name: Himanshu Garg
+  github: https://github.com/Himanshu-Garg
+  skills: [Python, Java, JavaScript, C++]
+
+- email: kanika16047@iiitd.ac.in
+  name: Kanika Saini
+  github: https://github.com/kanikasaini
+  skills: [JavaScript, React, Django, Python, Git, Mercurial, Firefox]
+
+- email: katyayani15046@iiitd.ac.in
+  name: Katyayni Singh
+
+- email: kushagra14056@iiitd.ac.in
+  name: Kushagra Singh
+  github: https://github.com/Kush789
+  skills: [Django, Tensorflow]
+
+- email: lohitaksh14059@iiitd.ac.in
+  name: Lohitaksh Parmar
+  github: https://github.com/Lohit13
+  skills: [App Development, Networks, Network Security]
+
+- email: madhur16053@iiitd.ac.in
+  name: Madhur Tandon
+
+- email: mahika16241@iiitd.ac.in
+  name: mahika16241
+  github: https://github.com/mahikaw
+  skills:
+    [Android, Java, C, C++, JavaScript, CSS, HTML, Git, GitHub, Shell, Python]
+
+- email: manik15053@iiitd.ac.in
+  name: Manik Arora
+
+- email: mansi14062@iiitd.ac.in
+  name: Mansi Goel
+  github: https://github.com/Mansi14062
+  skills: [Python]
+
+- email: mayank15056@iiitd.ac.in
+  name: Mayank Mohindra
+  github: https://github.com/mayankmtg
+  skills: [Web, Angular, Firebase, Django]
+
+- email: meghna16056@iiitd.ac.in
+  name: Meghna Gupta
+
+- email: mihir19061@iiitd.ac.in
+  name: Mihir Chaturvedi
+  github: https://github.com/plibither8
+  skills:
+    [
+      Svelte,
+      Sapper,
+      SvelteKit,
+      React,
+      Next.js,
+      TailwindCSS,
+      HTML,
+      Pug,
+      CSS,
+      Stylus,
+      SASS,
+      LESS,
+      JavaScript,
+      Node.js,
+      TypeScript,
+      Python,
+      MongoDB,
+      SQL,
+      PHP,
+      Bash,
+      C++,
+    ]
+
+- email: mukesh14149@iiitd.ac.in
+  name: Mukesh Gupta
+  github: https://github.com/mukesh14149
+  skills: [Java, Android, Machine Learning, Ionic Framework]
+
+- email: nalin14065@iiitd.ac.in
+  name: Nalin Gupta
+  github: https://github.com/nalin1096
+  skills:
+    [
+      Django,
+      Android,
+      MongoDB,
+      SQL,
+      Natural Language Processing,
+      Data Mining,
+      Machine Learning,
+    ]
+
+- email: nikhil15065@iiitd.ac.in
+  name: nikhil15065
+  github: https://github.com/nikhilhassija
+  skills: [Django]
+
+- email: palash14072@iiitd.ac.in
+  name: palash14072
+  github: https://github.com/palashbansal96
+  skills: []
+
+- email: palash16064@iiitd.ac.in
+  name: Palash Aggrawal
+  github: https://github.com/Cosmopal
+  skills:
+    [
+      Android,
+      Firebase,
+      Java,
+      Python,
+      Machine Learning,
+      Natural Language Processing,
+    ]
+  details: in general dev stuff - fun and frustration
+
+- email: paridhi16065@iiitd.ac.in
+  name: paridhi16065
+  github: https://github.com/paridhi16065
+  skills: [Python, Java, C, Flask, SQL]
+
+- email: parimi15068@iiitd.ac.in
+  name: parimi15068
+  github: https://github.com/viraj96
+  skills: [JavaScript, Python]
+
+- email: peeyush16254@iiitd.ac.in
+  name: Peeyush
+  github: https://github.com/peey
+  skills: [JavaScript and Compilers]
+
+- email: raghav17082@iiitd.ac.in
+  name: Raghav Kukreti
+  github: https://github.com/raghav-kukreti
+  skills:
+    [
+      HTML5,
+      SASS,
+      Stylus,
+      CSS,
+      JavaScript,
+      jQuery,
+      Node.js,
+      CoffeeScript,
+      Deep Learning,
+      Machine Learning,
+      Django,
+      Jekyll,
+      Haskell,
+      Ruby,
+      C,
+      C++,
+      Java,
+      Python,
+      Firebase,
+      Git,
+    ]
+
+- email: rishabh15076@iiitd.ac.in
+  name: rishabh16076
+  github: https://github.com/bigharshrag
+  skills: [Deep Learning, Machine Learning, Django/Flask]
+
+- email: riya17309@iiitd.ac.in
+  name: Riya Singh
+
+- email: royal17310@iiitd.ac.in
+  name: Royal
+
+- email: rudraroop17311@iiitd.ac.in
+  name: Rudraroop Roy
+
+- email: rushil18408@iiitd.ac.in
+  name: Rushil Thareja
+  skills: [Python, Java, Android]
+
+- email: saatvik16261@iiitd.ac.in
+  name: saatvik16261
+  github: https://github.com/saatvikj
+  skills: [Android, Firebase, Arduino]
+  details: (IoT based applications primarily connected to android)
+
+- email: sahar14091@iiitd.ac.in
+  name: sahar14091
+  github: https://github.com/sahar2012
+  skills: [Python, Django, HTML, CSS, JavaScript, Frontend Development]
+
+- email: sanchit15083@iiitd.ac.in
+  name: Sanchit Sinha
+
+- email: saumya15172@iiitd.ac.in
+  name: Saumya Balodi
+
+- email: shiven15094@iiitd.ac.in
+  name: shiven15094
+  github: https://github.com/shivenmian
+  skills: [Android, MEAN Stack, Python]
+
+- email: shravika16093@iiitd.ac.in
+  name: Shravika Mittal
+
+- email: shwetank16095@iiitd.ac.in
+  name: shwetank16095
+  github: https://github.com/shwetankshrey
+  skills: [Python, Java, Backend Development]
+
+- email: siddharth16268@iiitd.ac.in
+  name: siddharth16268
+  github: https://github.com/geekSiddharth
+  details: Ctrl+C <-> Ctrl+V
+
+- email: sonali18317@iiitd.ac.in
+  name: Sonali Singhal
+  github: https://github.com/Sonalisinghal
+  skills: [C, Web Development, Python]
+
+- email: suryatej16102@iiitd.ac.in
+  name: suryatej16102
+  github: https://github.com/suryatejreddy
+  skills: [Django, JavaScript, Android]
+
+- email: taneea14166@iiitd.ac.in
+  name: Taneea S Agrawaal
+  github: https://github.com/TanSA05
+  skills: [Python, Ruby, Rails, JavaScript, jQuery]
+
+- email: tarun14110@iiitd.ac.in
+  name: tarun14110
+  github: https://github.com/tarun14110
+  skills: [Networks, Cyber Security, Android]
+
+- email: varun13168@iiitd.ac.in
+  name: Varun Bansal
+  github: https://github.com/bansalvarun
+  skills:
+    [
+      Django,
+      Ruby on Rails,
+      JavaScript,
+      Elasticsearch,
+      Android,
+      Node.js,
+      ROS,
+      Bash,
+      Linux,
+      Git,
+      AWS,
+      DigitalOcean,
+      Arduino,
+      Code Blocks,
+      Eclipse,
+      NetBeans,
+      MATLAB,
+      OpenGL,
+      Latex,
+    ]
+
+- email: viresh16118@iiitd.ac.in
+  name: Viresh Gupta
+  github: https://github.com/virresh
+  skills: [Web Development, Git, Python, Unity, Automation, Scraping]
+  details: and any generic dev stuff
+
+- email: vrinda14122@iiitd.ac.in
+  name: Vrinda Malhotra
+  github: https://github.com/TheChirpyWitch
+  skills: [Android, Flask, Ruby on Rails]
+
+- email: yashasvi15116@iiitd.ac.in
+  name: Yashasvi Baweja
+  github: https://github.com/yashasvi97
+  details: Anything related to data mining
+
+- email: yellapragada15117@iiitd.ac.in
+  name: yellapragada15117
+  github: https://github.com/meriki
+  skills: [Django, python, C, C++]
+
+- email: aniket17133@iiitd.ac.in
+  name: Aniket Pradhan
+  github: https://github.com/Aniket-Pradhan
+  skills: [Android, Java, Python, Web Development, React Native]
+
+- email: aman17017@iiitd.ac.in
+  name: Aman Mehra
+  github: https://github.com/amehra-github
+  skills: [Python, Java, Flask]
+
+- email: smera18315@iiitd.ac.in
+  name: Smera Goel
+  github: https://github.com/smera18315
+  skills: [Python, Dart, Design]
+
+- name: Saksham Mrig
+  email: saksham19385@iiitd.ac.in
+  github: https://github.com/sksum
+  skills: [Java, MERN, TypeScript, Python, Flask, Rust]
+
+- email: vishwesh18119@iiitd.ac.in
+  name: Vishwesh Kumar
+  github: https://github.com/vishwesh-D-kumar
+  skills: [Python, Java, Django, Astor]
+
+- email: bassam19032@iiitd.ac.in
+  name: Bassam Pervez
+  github: https://github.com/basp0
+  skills:
+    [Python, Java, Django, JavaScript, Bash, Processing, Arduino, OpenCV, Git]

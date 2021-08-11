@@ -1,5 +1,6 @@
 import preprocess from "svelte-preprocess";
 import adapter from "@sveltejs/adapter-netlify";
+import yaml from "@rollup/plugin-yaml";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -14,6 +15,9 @@ const config = {
   kit: {
     adapter: adapter(),
     target: "#svelte",
+    vite: {
+      plugins: [yaml()],
+    },
   },
 };
 
