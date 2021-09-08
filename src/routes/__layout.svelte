@@ -19,10 +19,10 @@
 
 {#key subtitle}
   <SvelteSeo
-    title="Byld · {subtitle}"
+    title="Byld • {subtitle}"
     description="The official website of Byld, the Software Development Club of IIIT Delhi."
     openGraph="{{
-      title: `Byld · ${subtitle}`,
+      title: `Byld • ${subtitle}`,
       description:
         'The official website of Byld, the Software Development Club of IIIT Delhi.',
       url: `https://byld.iiitd.ac.in/${$page.path}`,
@@ -32,9 +32,16 @@
           url: '/images/byld-hero.jpg',
           width: 850,
           height: 480,
-          alt: 'Byld · IIIT Delhi',
+          alt: 'Byld • IIIT Delhi',
         },
       ],
+    }}"
+    twitter="{{
+      site: '@username',
+      title: 'Twitter Card Title',
+      description: 'Description of Twitter Card',
+      image: 'https://www.example.com/images/cover.jpg',
+      imageAlt: 'Alt text for the card!',
     }}"
   />
 {/key}
