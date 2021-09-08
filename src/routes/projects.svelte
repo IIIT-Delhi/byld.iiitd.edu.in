@@ -1,19 +1,15 @@
 <script lang="ts">
-  import Button from "$lib/components/Button.svelte";
   import Container from "$lib/components/Container.svelte";
   import ProjectCard from "$lib/components/ProjectCard.svelte";
   import projects_ from "$lib/data/projects.yml";
   import type { Project } from "$lib/types";
 
-  const projects = projects_.slice(0, 2) as Project[];
+  const projects = projects_ as Project[];
 </script>
 
-<section class="w-full border-t py-14 bg-sec-800 border-sec-600">
-  <Container className="w-full space-y-5" heading="Projects">
-    <p class="text-lg leading-normal text-gray-400">
-      Check out the projects our members have bylt.
-    </p>
-    <div class="flex flex-row space-x-3">
+<section class="text-gray-200 bg-sec-800 py-14">
+  <Container heading="Projects">
+    <div class="grid grid-cols-2 gap-5 mt-10">
       {#each projects as project}
         <ProjectCard
           title="{project.title}"
@@ -25,6 +21,5 @@
         />
       {/each}
     </div>
-    <Button as="button-link" href="/projects">All Projects</Button>
   </Container>
 </section>

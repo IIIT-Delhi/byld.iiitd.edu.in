@@ -1,0 +1,58 @@
+- title: Opine
+  subtitle: Feedback System
+  status: Beta
+  link: http://opine.iiitd.edu.in/
+  contributors:
+    - Siddharth Gupta
+    - Sarthak Bajaj
+  tech: ["Django"]
+
+- title: FindMyStuff
+  subtitle: Items Locator
+  status: Released
+  link: http://findmystuff.iiitd.edu.in/
+  contributors:
+    - Sambhav Satija
+    - Kshitij Jain
+    - Ankur Dohare
+    - Magus Verma
+  tech: ["Django"]
+
+- title: Placement/Job Portal
+  subtitle: IIIT Delhi Job Portal
+  status: Beta
+  link: http://jobport.iiitd.edu.in:8081/
+  contributors:
+    - Romil Bhardwaj
+    - Naman Gupta
+  tech: ["Django"]
+
+- title: Admission Software
+  subtitle: PhD Admission Software of IIIT Delhi
+  status: Released
+  link: http://phdadmissions.iiitd.edu.in/
+  contributors:
+    - Gitanshu Sardana
+    - Prateek Mehra
+    - Gurshabad Grover
+    - Prasoon Dwivedi
+    - Tushar Gupta
+    - Manav Batra
+  tech: ["Django"]
+
+- title: Community Work Portal
+  subtitle: CW Portal of IIIT Delhi
+  status: Released
+  link: http://cw.iiitd.edu.in:8089/
+  contributors:
+    - Sambhav Satija
+  tech: ["Django"]
+
+- title: Self Growth Portal
+  subtitle: SG Portal of IIIT Delhi
+  status: Beta
+  link: http://sg.iiitd.edu.in:8087/
+  contributors:
+    - Lohitaksh Parmar
+    - Kushagra Singh
+  tech: ["Django"]

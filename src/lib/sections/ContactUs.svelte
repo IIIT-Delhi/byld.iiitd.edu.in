@@ -37,7 +37,7 @@
   ];
 </script>
 
-<section class="border-t py-14 bg-sec-800 border-sec-600">
+<section class="border-t py-14 bg-sec-850 border-sec-600">
   <Container className="space-y-5" heading="Contact us">
     <p class="text-lg leading-normal text-gray-400">
       For the quickest replies, consider email us or sending a message on Byld's
