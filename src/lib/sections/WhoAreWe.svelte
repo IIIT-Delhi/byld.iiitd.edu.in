@@ -12,7 +12,6 @@
       tools and technologies.
     </p>
 
-    <Admins />
     <Button>
       <div class="flex items-center justify-center space-x-2">
         <Icon src="{UserGroup}" size="20" />
