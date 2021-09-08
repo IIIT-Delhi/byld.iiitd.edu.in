@@ -1,59 +1,43 @@
-<script context="module">
-  export async function load({ page }) {
-    return {
-      props: {
-        path: page.path,
-      },
-    };
-  }
-</script>
-
 <script lang="ts">
   import Footer from "$lib/components/Footer.svelte";
   import Nav from "$lib/components/Nav.svelte";
   import SvelteSeo from "svelte-seo";
   import navigation_ from "$lib/data/navigation.yml";
   import type { NavLink } from "$lib/types";
+  import { page } from "$app/stores";
+  import "../app.postcss";
 
   const navigation = navigation_ as NavLink[];
-  export let path: String = "";
   let subtitle: String = "";
 
-  $: updateSubtitle(path);
-  $: console.log(subtitle);
-
-  function updateSubtitle(path: String) {
-    if (path === "/") {
-      subtitle = "IIIT Delhi";
-    } else {
-      navigation.forEach((link) => {
-        if (link.href === path) {
-          subtitle = link.name;
-        }
-      });
-    }
-  }
+  $: subtitle =
+    $page.path === "/"
+      ? "IIIT Delhi"
+      : navigation.find((link) => link.href === $page.path)?.name ||
+        "IIIT Delhi";
 </script>
 
-<SvelteSeo
-  title="Byld · {subtitle}"
-  description="The official website of Byld, the Software Development Club of IIIT Delhi."
-  openGraph="{{
-    title: 'Byld · IIIT Delhi',
-    description:
-      'The official website of Byld, the Software Development Club of IIIT Delhi.',
-    url: 'https://byld.iiitd.ac.in/',
-    type: 'website',
-    images: [
-      {
-        url: '/images/byld-hero.jpg',
-        width: 850,
-        height: 480,
-        alt: 'Byld · IIIT Delhi',
-      },
-    ],
-  }}"
-/>
+{#key subtitle}
+  <SvelteSeo
+    title="Byld · {subtitle}"
+    description="The official website of Byld, the Software Development Club of IIIT Delhi."
+    openGraph="{{
+      title: `Byld · ${subtitle}`,
+      description:
+        'The official website of Byld, the Software Development Club of IIIT Delhi.',
+      url: `https://byld.iiitd.ac.in/${$page.path}`,
+      type: 'website',
+      images: [
+        {
+          url: '/images/byld-hero.jpg',
+          width: 850,
+          height: 480,
+          alt: 'Byld · IIIT Delhi',
+        },
+      ],
+    }}"
+  />
+{/key}
 
 <Nav />
 
