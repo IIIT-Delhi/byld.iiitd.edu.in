@@ -20,28 +20,28 @@
 {#key subtitle}
   <SvelteSeo
     title="Byld • {subtitle}"
-    description="The official website of Byld, the Software Development Club of IIIT Delhi."
+    description="Byld is the software development club of IIIT Delhi. We are a group of students who love building new stuff. We aim to create and continuously improve the dev culture at IIITD by bringing together passionate individuals who love to collaborate, innovate, create and byld."
     openGraph="{{
       title: `Byld • ${subtitle}`,
       description:
-        'The official website of Byld, the Software Development Club of IIIT Delhi.',
+        'Byld is the software development club of IIIT Delhi. We are a group of students who love building new stuff. We aim to create and continuously improve the dev culture at IIITD by bringing together passionate individuals who love to collaborate, innovate, create and byld.',
       url: `https://byld.iiitd.ac.in/${$page.path}`,
       type: 'website',
       images: [
         {
           url: '/images/byld-hero.jpg',
-          width: 850,
-          height: 480,
-          alt: 'Byld • IIIT Delhi',
+          width: 1280,
+          height: 640,
+          alt: 'Byld',
         },
       ],
     }}"
     twitter="{{
-      site: '@username',
-      title: 'Twitter Card Title',
-      description: 'Description of Twitter Card',
-      image: 'https://www.example.com/images/cover.jpg',
-      imageAlt: 'Alt text for the card!',
+      title: `Byld • ${subtitle}`,
+      description:
+        'Byld is the software development club of IIIT Delhi. We are a group of students who love building new stuff. We aim to create and continuously improve the dev culture at IIITD by bringing together passionate individuals who love to collaborate, innovate, create and byld.',
+      image: '/images/byld-hero.jpg',
+      imageAlt: 'Byld',
     }}"
   />
 {/key}
