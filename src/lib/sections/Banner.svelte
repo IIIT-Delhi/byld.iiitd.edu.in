@@ -14,7 +14,7 @@
     <Container className="py-5">
       <h2
         class="text-2xl font-black text-center duration-100 text-sec-100"
-        transition:fade="{{ duration: 1000, delay: 800 }}"
+        in:fade="{{ duration: 1000, delay: 800 }}"
       >
         Build, hack, learn.
       </h2>
