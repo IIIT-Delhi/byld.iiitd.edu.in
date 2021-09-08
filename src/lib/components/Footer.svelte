@@ -7,7 +7,7 @@
 <section class="border-t bg-sec-900 border-sec-400">
   <Container className="py-7">
     <div class="flex flex-col text-sm space-y-3">
-      <Logo size="sm" backgroundColor="black" />
+      <a href="/"> <Logo size="sm" backgroundColor="black" /></a>
       <p class="text-gray-500">Bylt by Mihir Chaturvedi and Ananya Lohani</p>
       <a
         class="flex items-center text-gray-500 space-x-2"
