@@ -24,13 +24,13 @@
     {#if mounted}
       <div class="space-y-4">
         <p
-          transition:fly="{{ y: -10, duration: 1000 }}"
+          in:fly="{{ y: -10, duration: 1000 }}"
           class="max-w-md text-4xl font-bold leading-snug text-center text-gray-200"
         >
           The Software Development Club
         </p>
         <p
-          transition:fly="{{ y: -10, duration: 1000, delay: 300 }}"
+          in:fly="{{ y: -10, duration: 1000, delay: 300 }}"
           class="flex items-center justify-center max-w-md text-2xl font-bold leading-snug text-center space-x-2 text-sky-200"
         >
           <span class="animate-bounce">
@@ -40,16 +40,13 @@
         </p>
       </div>
       <p
-        transition:fly="{{ y: -10, duration: 1000, delay: 600 }}"
+        in:fly="{{ y: -10, duration: 1000, delay: 600 }}"
         class="max-w-sm text-xl leading-snug text-center text-gray-400 md:max-w-md"
       >
         Bringing together passionate individuals who love to collaborate,
         innovate, createand <span class="font-bold">byld</span>.
       </p>
-      <div
-        transition:fly="{{ y: -10, duration: 1000, delay: 800 }}"
-        class="space-x-3"
-      >
+      <div in:fly="{{ y: -10, duration: 1000, delay: 800 }}" class="space-x-3">
         <Button>
           <div class="flex items-center space-x-2">
             <Icon src="{Calendar}" size="20" />
