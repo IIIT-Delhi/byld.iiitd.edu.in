@@ -16,7 +16,12 @@
     {type === 'primary' ? 'bg-sec-200' : 'bg-transparent text-blueGray-200'}"
   >
     {#if as === "button-link"}
-      <a href="{href}" target="{newTab ? '_blank' : '_self'}" rel="noreferrer">
+      <a
+        href="{href}"
+        target="{newTab ? '_blank' : '_self'}"
+        rel="noreferrer"
+        sveltekit:noscroll
+      >
         <slot />
       </a>
     {:else}
