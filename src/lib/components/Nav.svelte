@@ -16,10 +16,12 @@
   class="sticky top-0 z-10 border-b bg-sec-600 bg-opacity-70 backdrop-filter backdrop-blur-lg border-sec-400 "
 >
   <Container className="flex items-center justify-between py-4">
-    <div class="flex flex-col items-center">
-      <Logo backgroundColor="black" size="sm" />
-      <span class="text-xs text-blueGray-400">develop@iiitd</span>
-    </div>
+    <a href="/">
+      <div class="flex flex-col items-center">
+        <Logo backgroundColor="black" size="sm" />
+        <span class="text-xs text-blueGray-400">develop@iiitd</span>
+      </div>
+    </a>
     <nav
       class="hidden space-x-5 text-sm font-semibold sm:flex text-blueGray-300"
     >
