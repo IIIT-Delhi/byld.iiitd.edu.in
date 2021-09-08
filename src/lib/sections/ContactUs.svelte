@@ -16,7 +16,7 @@
     },
     {
       name: "Telegram",
-      link: "https://t.me/byld",
+      link: "https://t.me/joinchat/Dv6-w41T66YxYWNl",
       icon: TelegramIcon,
     },
     {
