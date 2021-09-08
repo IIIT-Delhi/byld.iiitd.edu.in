@@ -51,7 +51,7 @@
 "
     >
       {#each networks as network}
-        <Button type="outline">
+        <Button type="outline" as="button-link" href="{network.link}">
           <div class="flex items-center justify-center space-x-2">
             <Icon src="{network.icon}" color="rgb(203, 213, 225)" />
             <span class="text-base font-bold text-blueGray-300">

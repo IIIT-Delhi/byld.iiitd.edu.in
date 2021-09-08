@@ -1,10 +1,10 @@
 <script lang="ts">
-  export let as: "link" | "button" = "button";
+  export let as: "link" | "button" | "button-link" = "button";
   export let type: "primary" | "outline" = "primary";
   export let href: string = "";
 </script>
 
-{#if as === "button"}
+{#if as === "button" || as === "button-link"}
   <button
     on:click
     class="py-2 px-3 text-lg text-blueGray-200 font-bold rounded-md
@@ -13,7 +13,13 @@
     transform active:scale-95 hover:-translate-y-0.5
     {type === 'primary' ? 'bg-sec-200' : 'bg-transparent text-blueGray-200'}"
   >
-    <slot />
+    {#if as === "button-link"}
+      <a href="{href}" target="_blank" rel="noreferrer">
+        <slot />
+      </a>
+    {:else}
+      <slot />
+    {/if}
   </button>
 {:else}
   <a href="{href}">
