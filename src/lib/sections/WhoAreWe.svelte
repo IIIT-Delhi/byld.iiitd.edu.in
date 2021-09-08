@@ -12,7 +12,7 @@
       tools and technologies.
     </p>
 
-    <Button>
+    <Button as="button-link" href="/members">
       <div class="flex items-center justify-center space-x-2">
         <Icon src="{UserGroup}" size="20" />
         <span>All members</span>

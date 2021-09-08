@@ -2,6 +2,8 @@
   export let as: "link" | "button" | "button-link" = "button";
   export let type: "primary" | "outline" = "primary";
   export let href: string = "";
+
+  const newTab = !href.startsWith("/");
 </script>
 
 {#if as === "button" || as === "button-link"}
@@ -14,7 +16,7 @@
     {type === 'primary' ? 'bg-sec-200' : 'bg-transparent text-blueGray-200'}"
   >
     {#if as === "button-link"}
-      <a href="{href}" target="_blank" rel="noreferrer">
+      <a href="{href}" target="{newTab ? '_blank' : '_self'}" rel="noreferrer">
         <slot />
       </a>
     {:else}

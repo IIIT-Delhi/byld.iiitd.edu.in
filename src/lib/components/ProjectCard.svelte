@@ -4,7 +4,7 @@
   export let status: String = "";
   export let contributors: Array<String> = [];
   export let techStack: Array<String> = [];
-  export let link: string;
+  export let link: string = "";
 </script>
 
 <div
