@@ -19,7 +19,7 @@
       <a
         href="{href}"
         target="{newTab ? '_blank' : '_self'}"
-        rel="noreferrer"
+        rel="noopener"
         sveltekit:noscroll
       >
         <slot />
