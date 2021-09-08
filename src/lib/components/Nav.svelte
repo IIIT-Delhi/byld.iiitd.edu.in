@@ -12,9 +12,7 @@
   const toggleNavigation = () => (showNavigation = !showNavigation);
 </script>
 
-<header
-  class="sticky top-0 z-10 border-b bg-sec-600 bg-opacity-70 backdrop-filter backdrop-blur-lg border-sec-400 "
->
+<header class="sticky top-0 z-10 border-b bg-sec-700 border-sec-400 ">
   <Container className="flex items-center justify-between py-4">
     <a href="/">
       <div class="flex flex-col items-center">
