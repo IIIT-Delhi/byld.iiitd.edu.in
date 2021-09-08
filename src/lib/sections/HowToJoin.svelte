@@ -17,7 +17,11 @@
     </p>
     <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
       <Button>When's the next hack?</Button>
-      <Button type="outline">
+      <Button
+        type="outline"
+        as="button-link"
+        href="https://t.me/joinchat/Dv6-w41T66YxYWNl"
+      >
         <div class="flex items-center justify-center space-x-2">
           <Icon src="{ChatAlt2}" size="20" />
           <span>Telegram Group</span>

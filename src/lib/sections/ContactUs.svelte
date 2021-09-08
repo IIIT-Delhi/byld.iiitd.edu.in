@@ -16,7 +16,7 @@
     },
     {
       name: "Telegram",
-      link: "https://t.me/byld",
+      link: "https://t.me/joinchat/Dv6-w41T66YxYWNl",
       icon: TelegramIcon,
     },
     {
@@ -26,12 +26,12 @@
     },
     {
       name: "Facebook",
-      link: "https://facebook.com",
+      link: "https://www.facebook.com/byld.iiitd/",
       icon: FacebookIcon,
     },
     {
       name: "LinkedIn",
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/company/byld-iiit-delhi/",
       icon: LinkedinIcon,
     },
   ];
@@ -45,13 +45,13 @@
     </p>
     <div
       class="
-  grid gap-5
- grid-row-3 sm:grid-rows-2 lg:grid-rows-1
- grid-cols-2 sm:grid-cols-3 lg:grid-cols-5
-"
+        grid gap-5
+        grid-row-3 sm:grid-rows-2 lg:grid-rows-1
+        grid-cols-2 sm:grid-cols-3 lg:grid-cols-5
+      "
     >
       {#each networks as network}
-        <Button type="outline">
+        <Button type="outline" as="button-link" href="{network.link}">
           <div class="flex items-center justify-center space-x-2">
             <Icon src="{network.icon}" color="rgb(203, 213, 225)" />
             <span class="text-base font-bold text-blueGray-300">
