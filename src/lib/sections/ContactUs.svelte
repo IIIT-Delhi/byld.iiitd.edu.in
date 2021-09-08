@@ -26,12 +26,12 @@
     },
     {
       name: "Facebook",
-      link: "https://facebook.com",
+      link: "https://www.facebook.com/byld.iiitd/",
       icon: FacebookIcon,
     },
     {
       name: "LinkedIn",
-      link: "https://linkedin.com",
+      link: "https://www.linkedin.com/company/byld-iiit-delhi/",
       icon: LinkedinIcon,
     },
   ];
@@ -45,10 +45,10 @@
     </p>
     <div
       class="
-  grid gap-5
- grid-row-3 sm:grid-rows-2 lg:grid-rows-1
- grid-cols-2 sm:grid-cols-3 lg:grid-cols-5
-"
+        grid gap-5
+        grid-row-3 sm:grid-rows-2 lg:grid-rows-1
+        grid-cols-2 sm:grid-cols-3 lg:grid-cols-5
+      "
     >
       {#each networks as network}
         <Button type="outline" as="button-link" href="{network.link}">
