@@ -13,7 +13,7 @@
     <p class="text-lg leading-normal text-gray-400">
       Check out the projects our members have bylt.
     </p>
-    <div class="flex flex-row space-x-3">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
       {#each projects as project}
         <ProjectCard
           title="{project.title}"

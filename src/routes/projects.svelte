@@ -9,7 +9,7 @@
 
 <section class="text-gray-200 bg-sec-800 py-14">
   <Container heading="Projects">
-    <div class="grid grid-cols-2 gap-5 mt-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
       {#each projects as project}
         <ProjectCard
           title="{project.title}"
