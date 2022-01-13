@@ -1,5 +1,5 @@
 import preprocess from "svelte-preprocess";
-import adapter from "@sveltejs/adapter-netlify";
+import adapter from "@sveltejs/adapter-node";
 import yaml from "@rollup/plugin-yaml";
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -13,10 +13,13 @@ const config = {
   ],
 
   kit: {
-    adapter: adapter(),
+    adapter: adapter({ out: "build" }),
     target: "#svelte",
     vite: {
       plugins: [yaml()],
+      ssr: {
+        noExternal: ["svelte-hero-icons"],
+      },
     },
   },
 };

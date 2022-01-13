@@ -1,5 +1,5 @@
 <script>
-  import Icon, { Code } from "svelte-hero-icons";
+  import { Icon, Code } from "svelte-hero-icons";
   import Container from "./Container.svelte";
   import Logo from "./Logo.svelte";
 </script>

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon, { Menu, ChevronDown } from "svelte-hero-icons";
+  import { Icon, ChevronDown } from "svelte-hero-icons";
   import { slide } from "svelte/transition";
   import Container from "$lib/components/Container.svelte";
   import Logo from "$lib/components/Logo.svelte";

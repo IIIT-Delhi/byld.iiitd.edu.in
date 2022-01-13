@@ -1,5 +1,5 @@
 <script>
-  import Icon, { ChatAlt2 } from "svelte-hero-icons";
+  import { Icon, ChatAlt2 } from "svelte-hero-icons";
   import Button from "$lib/components/Button.svelte";
   import Container from "$lib/components/Container.svelte";
 </script>

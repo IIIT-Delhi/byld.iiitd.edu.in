@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Icon, { Link } from "svelte-hero-icons";
+  import { Icon, Link } from "svelte-hero-icons";
   export let id: string;
   export let size = "20";
 </script>

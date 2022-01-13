@@ -3,7 +3,7 @@
   import Container from "$lib/components/Container.svelte";
   import members_ from "$lib/data/members.yml";
   import type { Member } from "$lib/types";
-  import IconHi, { Mail } from "svelte-hero-icons";
+  import { Icon as IconHi, Mail } from "svelte-hero-icons";
   import AiFillGithub from "svelte-icons-pack/ai/AiFillGithub";
   import Icon from "svelte-icons-pack/Icon.svelte";
 

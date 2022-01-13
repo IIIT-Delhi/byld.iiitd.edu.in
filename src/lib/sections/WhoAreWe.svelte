@@ -1,8 +1,7 @@
 <script>
   import Button from "$lib/components/Button.svelte";
   import Container from "$lib/components/Container.svelte";
-  import Admins from "$lib/components/Admins.svelte";
-  import Icon, { UserGroup } from "svelte-hero-icons";
+  import { Icon, UserGroup } from "svelte-hero-icons";
 </script>
 
 <section class="py-14 bg-sec-800">

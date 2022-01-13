@@ -1,5 +1,6 @@
 <script lang="ts">
-  import Icon, {
+  import {
+    Icon,
     LocationMarker,
     AcademicCap,
     Calendar,
